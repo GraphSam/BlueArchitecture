@@ -173,44 +173,9 @@ public class BaseActivity extends Activity {
 			startActivity(intent1);
 			finish();
 			break;
-
-/*		  case 2:
-		  
-		  Intent intent2 = new Intent(this, ProductDetailsActivity.class);
-		  
-		  startActivity(intent2);
-		  
-		  finish();
-		  
-		  break;
-		  
-/*		   case 3:
-		 * 
-		 * Intent intent3 = new Intent(this, fourth.class);
-		 * 
-		 * startActivity(intent3);
-		 * 
-		 * finish();
-		 * 
-		 * break;
-		 * 
-		 * case 4:
-		 * 
-		 * Intent intent4 = new Intent(this, fifth.class);
-		 * 
-		 * startActivity(intent4);
-		 * 
-		 * finish();
-		 * 
-		 * break;*/
 		  
 		  case 5:
-			  finish();
-			  quit();
-			  finish();
-			  quit();
-			  finish();
-			  quit();
+			  finishAffinity();
 		  break;
 
 		default:

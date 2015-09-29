@@ -22,6 +22,11 @@ public class CatalogActivity extends BaseActivity {
 	private TypedArray navMenuIcons;
 	
     /**
+     * Used to store the last screen title. For use in {@link #restoreActionBar()}.
+     */
+    private CharSequence mTitle;
+
+    /**
      * Product list
      */
     private List<Product> mProductList;
